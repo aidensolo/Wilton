@@ -1,0 +1,72 @@
+h1{
+	color: white;
+	font-size :200px; 
+	transform: translate(20%, 90%);
+}	
+
+#banner {
+
+	width: 1400px;
+	position: relative;
+}
+
+.cards{
+	height: 400px;
+	width: 400px;
+	object-fit:cover ;
+
+}
+
+body{
+	background-color: #03ecfc;
+	text-align: center;
+	font-family: 'Roboto Mono', monospace;
+}
+
+li{
+	list-style-type: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+p{
+	font-size: 150%;
+	color: black;
+	font-weight:bold;
+}
+
+h2{
+	font-size: 200%;
+}
+
+#button{
+	background-color: #8c5206;
+	padding: 20px;
+	border-radius: 30px;
+	top: 20%;
+	left: 2%;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#topbanner{
+	display: flex;
+}
+
+h1, #topbanner>h2{
+	position: absolute;
+}
+
+#cards{
+	display: flex;
+	justify-content: space-around;
+}
+#list{
+	display: flex;
+	justify-content: space-around;
+}
